@@ -80,7 +80,7 @@ sbom = {
 # 4. Сохраняем результат
 # Сохраняем как sbom.json, так как это стандартное имя для osv-scanner, 
 # но этот файл также является полноценным результатом Задания 4.
-output_filename = "sbom.json"
+output_filename = "bom.json"
 with open(output_filename, "w", encoding="utf-8") as f:
     json.dump(sbom, f, indent=4, ensure_ascii=False)
 
