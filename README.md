@@ -74,7 +74,7 @@ export GITHUB\_TOKEN=<YOUR\_TOKEN>
 
 cd \~/lab3
 
-python task2\_graphql.py
+python task2.py
 
 
 
