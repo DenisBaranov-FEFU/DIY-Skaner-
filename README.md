@@ -106,38 +106,14 @@ result\_task\_3.json
 
 Задача 4. Инвентаризация операционной системы
 
-
-
-Запуск:
-
-
-
-python task4.py
-
-
-
-Результат:
-
-
-
-result\_task\_4.json
-
+python3 task4.py
 
 Задача 5. Анализ уязвимостей с использованием OSV-Scanner
 
 
+./osv-scanner --sbom=bom.json > result_task_5_before.json
+sudo dnf update -y
 
-Запуск:
-
-
-
-./osv-scanner scan \~/lab3/pytorch --format json > result\_task\_5.json
-
-
-
-Результат:
-
-
-
-result\_task\_5.json
+python3 task4.py
+./osv-scanner --sbom=bom.json > result_task_5_after.json
 
